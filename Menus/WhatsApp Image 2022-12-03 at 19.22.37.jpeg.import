@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/WhatsApp Image 2022-12-03 at 19.22.37.jpeg-e51f6d38ff54077b68555e1fe42b4a90.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Menus/WhatsApp Image 2022-12-03 at 19.22.37.jpeg"
+dest_files=[ "res://.import/WhatsApp Image 2022-12-03 at 19.22.37.jpeg-e51f6d38ff54077b68555e1fe42b4a90.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
