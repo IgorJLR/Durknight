@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/bigbang.wav-45aa7c4c6b62bf7fa35aa9fa6731ef27.sample"
+
+[deps]
+
+source_file="res://sons/bigbang.wav"
+dest_files=[ "res://.import/bigbang.wav-45aa7c4c6b62bf7fa35aa9fa6731ef27.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

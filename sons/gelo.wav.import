@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/gelo.wav-e851b328eb8c8f3e24b6cff833b7e3b6.sample"
+
+[deps]
+
+source_file="res://sons/gelo.wav"
+dest_files=[ "res://.import/gelo.wav-e851b328eb8c8f3e24b6cff833b7e3b6.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

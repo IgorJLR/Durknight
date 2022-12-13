@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/raio.wav-4066961cb15e4005fa31dd786be38ed7.sample"
+
+[deps]
+
+source_file="res://sons/raio.wav"
+dest_files=[ "res://.import/raio.wav-4066961cb15e4005fa31dd786be38ed7.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

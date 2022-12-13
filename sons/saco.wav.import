@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/saco.wav-32e32eae4f7ff77a6ac168ff00db5dcc.sample"
+
+[deps]
+
+source_file="res://sons/saco.wav"
+dest_files=[ "res://.import/saco.wav-32e32eae4f7ff77a6ac168ff00db5dcc.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

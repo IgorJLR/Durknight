@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/sfxr-2022-10-31-08-43-20.wav-b5bf67c76e634a14aafb41830cd77022.sample"
+
+[deps]
+
+source_file="res://sons/sfxr-2022-10-31-08-43-20.wav"
+dest_files=[ "res://.import/sfxr-2022-10-31-08-43-20.wav-b5bf67c76e634a14aafb41830cd77022.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

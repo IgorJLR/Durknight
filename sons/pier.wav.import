@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/pier.wav-603dcf9a424fa2dfb9d0fa3c7e6dff49.sample"
+
+[deps]
+
+source_file="res://sons/pier.wav"
+dest_files=[ "res://.import/pier.wav-603dcf9a424fa2dfb9d0fa3c7e6dff49.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

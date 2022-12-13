@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/rei.wav-0dbad91eee213661acd850b779dc27b2.sample"
+
+[deps]
+
+source_file="res://sons/rei.wav"
+dest_files=[ "res://.import/rei.wav-0dbad91eee213661acd850b779dc27b2.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
