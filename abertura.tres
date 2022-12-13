@@ -1,0 +1,6 @@
+[gd_resource type="Environment" format=2]
+
+[resource]
+background_mode = 4
+adjustment_enabled = true
+adjustment_brightness = 0.01

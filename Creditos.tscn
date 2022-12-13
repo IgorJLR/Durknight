@@ -1,0 +1,211 @@
+[gd_scene load_steps=30 format=2]
+
+[ext_resource path="res://Menus/Pixel-UniCode.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Creditos.gd" type="Script" id=2]
+[ext_resource path="res://Menus/WhatsApp Image 2022-12-03 at 19.22.37.jpeg" type="Texture" id=3]
+[ext_resource path="res://Menus/igor.png" type="Texture" id=4]
+[ext_resource path="res://Menus/elian.png" type="Texture" id=5]
+[ext_resource path="res://Menus/Lucas.png" type="Texture" id=6]
+[ext_resource path="res://Menus/Erick.png" type="Texture" id=7]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="DynamicFont" id=2]
+size = 96
+outline_size = 6
+outline_color = Color( 0.0745098, 0.0745098, 0.0745098, 0.564706 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="AtlasTexture" id=3]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=4]
+atlas = ExtResource( 4 )
+region = Rect2( 16, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=5]
+atlas = ExtResource( 4 )
+region = Rect2( 32, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=6]
+atlas = ExtResource( 4 )
+region = Rect2( 48, 0, 16, 16 )
+
+[sub_resource type="SpriteFrames" id=7]
+animations = [ {
+"frames": [ SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=8]
+atlas = ExtResource( 5 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=9]
+atlas = ExtResource( 5 )
+region = Rect2( 16, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=10]
+atlas = ExtResource( 5 )
+region = Rect2( 32, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=11]
+atlas = ExtResource( 5 )
+region = Rect2( 48, 0, 16, 16 )
+
+[sub_resource type="SpriteFrames" id=12]
+animations = [ {
+"frames": [ SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 11 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=13]
+atlas = ExtResource( 7 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=14]
+atlas = ExtResource( 7 )
+region = Rect2( 16, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=15]
+atlas = ExtResource( 7 )
+region = Rect2( 32, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=16]
+atlas = ExtResource( 7 )
+region = Rect2( 48, 0, 16, 16 )
+
+[sub_resource type="SpriteFrames" id=17]
+animations = [ {
+"frames": [ SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=18]
+atlas = ExtResource( 6 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=19]
+atlas = ExtResource( 6 )
+region = Rect2( 16, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=20]
+atlas = ExtResource( 6 )
+region = Rect2( 32, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=21]
+atlas = ExtResource( 6 )
+region = Rect2( 48, 0, 16, 16 )
+
+[sub_resource type="SpriteFrames" id=22]
+animations = [ {
+"frames": [ SubResource( 18 ), SubResource( 19 ), SubResource( 20 ), SubResource( 21 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="Creditos" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="map" type="AnimatedSprite" parent="."]
+position = Vector2( 481, 300 )
+scale = Vector2( 0.853472, 0.853472 )
+frames = SubResource( 1 )
+speed_scale = 0.4
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 14.0
+margin_top = 525.0
+margin_right = 1023.0
+margin_bottom = 4213.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "[center]
+Este jogo foi feito com base nos conceitos do sociólogo David Émile Durkheim como trabalho na disciplina de sociologia no 
+IFC Campus Camboriú, orientado pelo professor Fábio Dias.
+
+Programação
+Igor Jair Laurindo Ribeiro
+
+Arte
+Elian Jardel de Oliveira
+
+Capa
+@Doodlicee
+
+Participações Especiais
+Erick Santos de Lima
+Lucas Vicenzzo Schneider
+Fabio Alves dos Santos Dias
+
+
+
+
+
+
+Obrigado por Jogar!!![/center]"
+text = "
+Este jogo foi feito com base nos conceitos do sociólogo David Émile Durkheim como trabalho na disciplina de sociologia no 
+IFC Campus Camboriú, orientado pelo professor Fábio Dias.
+
+Programação
+Igor Jair Laurindo Ribeiro
+
+Arte
+Elian Jardel de Oliveira
+
+Capa
+@Doodlicee
+
+Participações Especiais
+Erick Santos de Lima
+Lucas Vicenzzo Schneider
+Fabio Alves dos Santos Dias
+
+
+
+
+
+
+Obrigado por Jogar!!!"
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="RichTextLabel"]
+position = Vector2( 813, 933 )
+scale = Vector2( 7.875, 7.875 )
+frames = SubResource( 7 )
+frame = 2
+playing = true
+
+[node name="AnimatedSprite2" type="AnimatedSprite" parent="RichTextLabel"]
+position = Vector2( 709, 1260 )
+scale = Vector2( 7.875, 7.875 )
+frames = SubResource( 12 )
+frame = 2
+playing = true
+
+[node name="AnimatedSprite3" type="AnimatedSprite" parent="RichTextLabel"]
+position = Vector2( 885, 2003 )
+scale = Vector2( 7.875, 7.875 )
+frames = SubResource( 17 )
+frame = 2
+playing = true
+
+[node name="AnimatedSprite4" type="AnimatedSprite" parent="RichTextLabel"]
+position = Vector2( 61.0001, 2105 )
+scale = Vector2( 7.875, 7.875 )
+frames = SubResource( 22 )
+playing = true

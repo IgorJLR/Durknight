@@ -1,0 +1,293 @@
+[gd_scene load_steps=50 format=2]
+
+[ext_resource path="res://TileSets/estradasheet.png" type="Texture" id=1]
+[ext_resource path="res://TileSets/Muro2.png" type="Texture" id=2]
+[ext_resource path="res://TileSets/caminho.png" type="Texture" id=3]
+[ext_resource path="res://TileSets/Muro1.png" type="Texture" id=4]
+[ext_resource path="res://TileSets/piso real.png" type="Texture" id=5]
+[ext_resource path="res://Npcs/reiMorre4.png" type="Texture" id=6]
+[ext_resource path="res://TileSets/tapetereal2.png" type="Texture" id=7]
+[ext_resource path="res://TileSets/tapetereal1.png" type="Texture" id=8]
+[ext_resource path="res://Npcs/reiMorre1.png" type="Texture" id=9]
+[ext_resource path="res://Npcs/reiMorre2.png" type="Texture" id=10]
+[ext_resource path="res://Npcs/reiMorre3.png" type="Texture" id=11]
+[ext_resource path="res://Npcs/reiMorre5.png" type="Texture" id=12]
+[ext_resource path="res://Npcs/reiMorre6.png" type="Texture" id=13]
+[ext_resource path="res://Npcs/reiMorre7.png" type="Texture" id=14]
+[ext_resource path="res://Npcs/reiMorre8.png" type="Texture" id=15]
+[ext_resource path="res://Npcs/reiMorre9.png" type="Texture" id=16]
+[ext_resource path="res://Npcs/reiMorre10.png" type="Texture" id=17]
+[ext_resource path="res://Npcs/DemônioLançando13.png" type="Texture" id=18]
+[ext_resource path="res://Npcs/DemônioLançando2.png" type="Texture" id=19]
+[ext_resource path="res://Npcs/DemônioLançando8.png" type="Texture" id=20]
+[ext_resource path="res://Npcs/DemônioLançando6.png" type="Texture" id=21]
+[ext_resource path="res://Npcs/DemônioLançando10.png" type="Texture" id=22]
+[ext_resource path="res://Npcs/DemônioLançando14.png" type="Texture" id=23]
+[ext_resource path="res://Npcs/DemônioLançando12.png" type="Texture" id=24]
+[ext_resource path="res://Npcs/DemônioLançando3.png" type="Texture" id=25]
+[ext_resource path="res://Npcs/DemônioLançando11.png" type="Texture" id=26]
+[ext_resource path="res://Npcs/DemônioLançando9.png" type="Texture" id=27]
+[ext_resource path="res://Npcs/DemônioLançando7.png" type="Texture" id=28]
+[ext_resource path="res://Npcs/DemônioLançando5.png" type="Texture" id=29]
+[ext_resource path="res://Npcs/DemônioLançando4.png" type="Texture" id=30]
+[ext_resource path="res://Npcs/DemônioLançando15.png" type="Texture" id=31]
+[ext_resource path="res://Npcs/DemônioLançando16.png" type="Texture" id=32]
+[ext_resource path="res://Npcs/DemônioLançando1.png" type="Texture" id=33]
+[ext_resource path="res://Efeitos/Projétil demônio.png" type="Texture" id=34]
+[ext_resource path="res://abertura.gd" type="Script" id=35]
+[ext_resource path="res://default_env.tres" type="Environment" id=36]
+[ext_resource path="res://Menus/Pixel-UniCode.ttf" type="DynamicFontData" id=37]
+[ext_resource path="res://TileSets/siluetacastelo.png" type="Texture" id=38]
+[ext_resource path="res://sons/rei.wav" type="AudioStream" id=39]
+[ext_resource path="res://sons/musica tensao.wav" type="AudioStream" id=40]
+[ext_resource path="res://sons/grilos.wav" type="AudioStream" id=41]
+
+[sub_resource type="ConvexPolygonShape2D" id=16]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="ConvexPolygonShape2D" id=17]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="TileSet" id=18]
+0/name = "caminho.png 0"
+0/texture = ExtResource( 3 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 16, 15 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+1/name = "Muro1.png 1"
+1/texture = ExtResource( 4 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 16, 16 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape = SubResource( 16 )
+1/shape_one_way = false
+1/shape_one_way_margin = 1.0
+1/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 16 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+1/z_index = 0
+2/name = "Muro2.png 2"
+2/texture = ExtResource( 2 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 16, 16 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape = SubResource( 17 )
+2/shape_one_way = false
+2/shape_one_way_margin = 1.0
+2/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 17 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+2/z_index = 0
+3/name = "piso real.png 3"
+3/texture = ExtResource( 5 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 0, 0, 16, 16 )
+3/tile_mode = 0
+3/occluder_offset = Vector2( 0, 0 )
+3/navigation_offset = Vector2( 0, 0 )
+3/shape_offset = Vector2( 0, 0 )
+3/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+3/shape_one_way = false
+3/shape_one_way_margin = 0.0
+3/shapes = [  ]
+3/z_index = 0
+4/name = "estradasheet.png 4"
+4/texture = ExtResource( 1 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 0, 0, 224, 16 )
+4/tile_mode = 2
+4/autotile/icon_coordinate = Vector2( 0, 0 )
+4/autotile/tile_size = Vector2( 16, 16 )
+4/autotile/spacing = 0
+4/autotile/occluder_map = [  ]
+4/autotile/navpoly_map = [  ]
+4/autotile/priority_map = [  ]
+4/autotile/z_index_map = [  ]
+4/occluder_offset = Vector2( 0, 0 )
+4/navigation_offset = Vector2( 0, 0 )
+4/shape_offset = Vector2( 0, 0 )
+4/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+4/shape_one_way = false
+4/shape_one_way_margin = 0.0
+4/shapes = [  ]
+4/z_index = 0
+5/name = "tapetereal2.png 5"
+5/texture = ExtResource( 7 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 0, 0, 16, 16 )
+5/tile_mode = 0
+5/occluder_offset = Vector2( 0, 0 )
+5/navigation_offset = Vector2( 0, 0 )
+5/shape_offset = Vector2( 0, 0 )
+5/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+5/shape_one_way = false
+5/shape_one_way_margin = 0.0
+5/shapes = [  ]
+5/z_index = 0
+6/name = "tapetereal1.png 6"
+6/texture = ExtResource( 8 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 0, 0, 16, 16 )
+6/tile_mode = 0
+6/occluder_offset = Vector2( 0, 0 )
+6/navigation_offset = Vector2( 0, 0 )
+6/shape_offset = Vector2( 0, 0 )
+6/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+6/shape_one_way = false
+6/shape_one_way_margin = 0.0
+6/shapes = [  ]
+6/z_index = 0
+
+[sub_resource type="TileSet" id=19]
+0/name = "tapetereal1.png 0"
+0/texture = ExtResource( 8 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 16, 16 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+
+[sub_resource type="SpriteFrames" id=22]
+animations = [ {
+"frames": [ ExtResource( 34 ) ],
+"loop": false,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=20]
+animations = [ {
+"frames": [ ExtResource( 9 ) ],
+"loop": false,
+"name": "default",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 10 ), ExtResource( 11 ) ],
+"loop": false,
+"name": "morrer1",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ) ],
+"loop": false,
+"name": "morre2",
+"speed": 8.0
+} ]
+
+[sub_resource type="SpriteFrames" id=21]
+animations = [ {
+"frames": [ ExtResource( 32 ), ExtResource( 33 ), ExtResource( 19 ), ExtResource( 25 ), ExtResource( 30 ), ExtResource( 29 ), ExtResource( 21 ), ExtResource( 28 ), ExtResource( 20 ), ExtResource( 27 ) ],
+"loop": false,
+"name": "default",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 22 ), ExtResource( 26 ), ExtResource( 24 ), ExtResource( 18 ), ExtResource( 23 ), ExtResource( 31 ), ExtResource( 32 ) ],
+"loop": false,
+"name": "sai",
+"speed": 5.0
+} ]
+
+[sub_resource type="DynamicFont" id=23]
+outline_size = 1
+outline_color = Color( 0.0745098, 0.0745098, 0.0745098, 0.564706 )
+font_data = ExtResource( 37 )
+
+[node name="abertura" type="Node2D"]
+position = Vector2( 506, 237 )
+script = ExtResource( 35 )
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = ExtResource( 36 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+zoom = Vector2( 0.2, 0.2 )
+
+[node name="TileMap3" type="TileMap" parent="."]
+tile_set = SubResource( 18 )
+cell_size = Vector2( 16, 16 )
+format = 1
+tile_data = PoolIntArray( -720897, 0, 0, -786432, 0, 0, -655362, 0, 0, -655361, 0, 0, -589826, 0, 0, -589825, 0, 0, -524290, 0, 0, -524289, 0, 0, -458754, 0, 0, -458753, 0, 0, -393218, 0, 0, -393217, 0, 0, -327682, 0, 0, -327681, 0, 0, -262145, 0, 0, -196615, -1073741821, 0, -196614, -1073741821, 0, -196613, -1073741821, 0, -196612, -1073741821, 0, -196611, -1073741821, 0, -196610, -1073741821, 0, -196609, -1073741821, 0, -262144, -1073741821, 0, -262143, -1073741821, 0, -262142, -1073741821, 0, -262141, -1073741821, 0, -262140, -1073741821, 0, -262139, -1073741821, 0, -262138, -1073741821, 0, -131079, -1073741821, 0, -131078, -1073741821, 0, -131077, -1073741821, 0, -131076, -1073741821, 0, -131075, -1073741821, 0, -131074, -1073741821, 0, -131073, -1073741821, 0, -196608, -1073741821, 0, -196607, -1073741821, 0, -196606, -1073741821, 0, -196605, -1073741821, 0, -196604, -1073741821, 0, -196603, -1073741821, 0, -196602, -1073741821, 0, -65543, -1073741821, 0, -65542, -1073741821, 0, -65541, -1073741821, 0, -65540, -1073741821, 0, -65539, -1073741821, 0, -65538, -1073741821, 0, -65537, -1073741821, 0, -131072, -1073741821, 0, -131071, -1073741821, 0, -131070, -1073741821, 0, -131069, -1073741821, 0, -131068, -1073741821, 0, -131067, -1073741821, 0, -131066, -1073741821, 0, -7, 5, 0, -6, 5, 0, -5, 5, 0, -4, 5, 0, -3, 5, 0, -2, 5, 0, -1, 5, 0, -65536, 5, 0, -65535, 5, 0, -65534, 5, 0, -65533, 5, 0, -65532, 5, 0, -65531, 5, 0, -65530, 5, 0, 65529, 1073741829, 0, 65530, 1073741829, 0, 65531, 1073741829, 0, 65532, 1073741829, 0, 65533, 1073741829, 0, 65534, 1073741829, 0, 65535, 1073741829, 0, 0, 1073741829, 0, 1, 1073741829, 0, 2, 1073741829, 0, 3, 1073741829, 0, 4, 1073741829, 0, 5, 1073741829, 0, 6, 1073741829, 0, 131065, -1073741821, 0, 131066, -1073741821, 0, 131067, -1073741821, 0, 131068, -1073741821, 0, 131069, -1073741821, 0, 131070, -1073741821, 0, 131071, -1073741821, 0, 65536, -1073741821, 0, 65537, -1073741821, 0, 65538, -1073741821, 0, 65539, -1073741821, 0, 65540, -1073741821, 0, 65541, -1073741821, 0, 65542, -1073741821, 0, 196601, -1073741821, 0, 196602, -1073741821, 0, 196603, -1073741821, 0, 196604, -1073741821, 0, 196605, -1073741821, 0, 196606, -1073741821, 0, 196607, -1073741821, 0, 131072, -1073741821, 0, 131073, -1073741821, 0, 131074, -1073741821, 0, 131075, -1073741821, 0, 131076, -1073741821, 0, 131077, -1073741821, 0, 131078, -1073741821, 0, 262137, -1073741821, 0, 262138, -1073741821, 0, 262139, -1073741821, 0, 262140, -1073741821, 0, 262141, -1073741821, 0, 262142, -1073741821, 0, 262143, -1073741821, 0, 196608, -1073741821, 0, 196609, -1073741821, 0, 196610, -1073741821, 0, 196611, -1073741821, 0, 196612, -1073741821, 0, 196613, -1073741821, 0, 196614, -1073741821, 0, 327679, 0, 0 )
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource( 19 )
+cell_size = Vector2( 16, 16 )
+format = 1
+tile_data = PoolIntArray( -65543, 0, 0, -65542, 0, 0, -65541, 0, 0, -65540, 0, 0, -65539, 0, 0, -65538, 0, 0, -65537, 0, 0, -131072, 0, 0, -131071, 0, 0, -131070, 0, 0, -131069, 0, 0, -131068, 0, 0, -131067, 0, 0, -131066, 0, 0, 131065, 1073741824, 0, 131066, 1073741824, 0, 131067, 1073741824, 0, 131068, 1073741824, 0, 131069, 1073741824, 0, 131070, 1073741824, 0, 131071, 1073741824, 0, 65536, 1073741824, 0, 65537, 1073741824, 0, 65538, 1073741824, 0, 65539, 1073741824, 0, 65540, 1073741824, 0, 65541, 1073741824, 0, 65542, 1073741824, 0 )
+
+[node name="AnimatedSprite3" type="AnimatedSprite" parent="."]
+position = Vector2( 1216, -3 )
+frames = SubResource( 22 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( -83, -4 )
+frames = SubResource( 20 )
+playing = true
+
+[node name="AnimatedSprite2" type="AnimatedSprite" parent="."]
+position = Vector2( 13, -3 )
+frames = SubResource( 21 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = -101.0
+margin_top = 77.0
+margin_right = 104.0
+margin_bottom = 1236.0
+custom_fonts/normal_font = SubResource( 23 )
+bbcode_enabled = true
+bbcode_text = "[center]No grande reino de Helderheim, algo terrível aconteceu, em uma noite fatídica o Rei foi morto por um assassino misterioso. Ele não tinha herdeiros nem sucessores e, essa notícia correu levando caos, desespero e desconfiança entre as pessoas. A desordem fez com que durante anos a população do reino abandonasse a capital para habitar cantos diferentes da ilha. Sem organização ou consciência coletiva, eles passaram a viver de forma individualista e egoísta. 
+Será que existirá alguém capaz de acabar com essa anomia e reunir os povos de Helderheim?[/center]
+"
+text = "No grande reino de Helderheim, algo terrível aconteceu, em uma noite fatídica o Rei foi morto por um assassino misterioso. Ele não tinha herdeiros nem sucessores e, essa notícia correu levando caos, desespero e desconfiança entre as pessoas. A desordem fez com que durante anos a população do reino abandonasse a capital para habitar cantos diferentes da ilha. Sem organização ou consciência coletiva, eles passaram a viver de forma individualista e egoísta. 
+Será que existirá alguém capaz de acabar com essa anomia e reunir os povos de Helderheim?
+"
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 38 )
+
+[node name="rei" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 39 )
+
+[node name="music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 40 )
+volume_db = -10.636
+
+[node name="grilos" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 41 )
